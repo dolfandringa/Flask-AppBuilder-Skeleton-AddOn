@@ -26,8 +26,8 @@ setup(
     description=version.DESCRIPTION,
     long_description=desc(),
     packages=find_packages(),
-    package_data={'': ['LICENSE']},
     include_package_data=True,
+    package_data={'': ['LICENSE', 'config.py']},
     zip_safe=False,
     platforms='any',
     install_requires=[
